@@ -19,7 +19,7 @@ class PlacesControllerTest < ActionController::TestCase
     assert_not_nil assigns(:place)
   end
 
-  test "create place" do
+  test "should create place" do
     assert_difference('Place.count') do
       post :create, place: { name: 'Opposite Food Court', location: '150 Cantonment Rd.' }
     end
