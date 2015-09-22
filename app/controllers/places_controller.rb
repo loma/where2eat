@@ -33,7 +33,7 @@ class PlacesController < ApplicationController
       else
         render 'new'
       end
-  end
+  end 
 
   def destroy
     @place = Place.find(params[:id])
