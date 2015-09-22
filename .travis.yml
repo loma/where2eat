@@ -10,6 +10,6 @@ deploy:
     secure: YxO/H/MS2RgYIRUVf498ef3BvggiIelUvksqdujCBy8m9rhC8yXRCIEehi5TOKY/q/paB2xxdcg24MJBn450PBXMTNCUt9PUD74kcf8zuMqAWh1XchyZ8yOSCjBjoF61XsNeVU1sMdy/aYsiYhjSoX/gbWpPOuuRXtLtctjeQEZACnIiv3PBFjulJCI0T0hCxAqBFNcnTZyZyuULnn5NlRyNtM6GhPIKyp/VWzDaLUJgjg4G77N8ZHr5MlNzDENm2EzyRBcNLWWUmWPgvHTJJ/qGuqULBSc6hyLzX3H/9EjEGW51nfi1kTTxt+NzEHcnF1NsoUoYqVg9/8O+uHbZWskU3sOEOboLcm7qECTav59aDAQKIqEPXr6ejfVEP3Z74gcyKjYLaTsp7NNxna4n8n/66TzrPc4wSwlVEY30lJSESRKhTMhjno3arr1gyOt/TMJ9N+elfoM38dj9ofrT/trD64AvaPvoDS5NzW/AC0wycDtYrjdh1I2HPVIqVB/TOZ9qwqouzdI7/1gOKvqyBKgGqiFj1DzFudwa5BPiwIcsgNDtYZ7w49kc2Lz0g70/FCVmTUd24n/NirWklGelN4/56BR8yNuQXbouR0bzyJzlozr4n7zuG6Q0Ug4h4JFOGm7lTpA+XMojfwBZhq+G9LhEYkOgxCUd8R73CmbiSKg=
   strategy: git
   run: "rake db:migrate"
-  app: where2eat
+  app: whree2eat
   on:
     repo: loma/where2eat
