@@ -3,3 +3,5 @@ rvm:
  - "2.1.6"
 # uncomment this line if your project needs to run something other than `rake`:
 script: ./bin/rake test
+notifications:
+  slack: raiders-team:1zAfoobGAIrBhGXgX87Ir8kN
