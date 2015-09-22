@@ -33,13 +33,18 @@ class PlacesController < ApplicationController
       else
         render 'new'
       end
-  end  
+  end
 
   def destroy
     @place = Place.find(params[:id])
     @place.destroy
 
     redirect_to places_path
+  end
+
+  def pickforme
+    flash[:picked] = Place.all.shuffle.first
+    redirect_to root_url
   end
 
   private
