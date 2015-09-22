@@ -44,7 +44,9 @@ class PlacesController < ApplicationController
 
   def pickforme
     @places = Place.all
-    render 'index'
+    flash[:picked] = Place.new(name: 'Jade of India', location: 'Race Course Road')
+
+    redirect_to root_url
   end
 
   private

@@ -1,3 +1,9 @@
+
+<% if flash[:picked] %>
+  <h1>I've picked you this place!</h1>
+  <%= flash[:picked]["name"] %> at <%= flash[:picked]["location"] %>
+<% end %>
+
 <h1>Listing Places</h1>
 <%= link_to 'New place', new_place_path %>
 <table>
