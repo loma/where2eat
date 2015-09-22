@@ -5,4 +5,8 @@ class PlaceTest < ActiveSupport::TestCase
     place = Place.new
     assert_not place.save
   end
+
+  test "should fail" do
+    fail
+  end
 end
