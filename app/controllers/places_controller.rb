@@ -43,9 +43,7 @@ class PlacesController < ApplicationController
   end
 
   def pickforme
-    @places = Place.all
-    flash[:picked] = Place.new(name: 'Jade of India', location: 'Race Course Road')
-
+    flash[:picked] = Place.all.shuffle.first
     redirect_to root_url
   end
 
